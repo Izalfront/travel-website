@@ -53,7 +53,7 @@ const Navbar = () => {
 
       <div className={noBg}>
         <div className="logoDiv">
-          <img src={logo} className="Logo" />
+          <img src={logo} className="Logo" alt="" />
         </div>
 
         <div className={active}>

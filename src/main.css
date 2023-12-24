@@ -675,7 +675,7 @@ h2 {
   }
   .navBar .navBarTwo .menu {
     flex-direction: row;
-    gap: 0.5rem;
+    gap: 1rem;
   }
   .navBar .navBarTwo .menu .listItem {
     padding: 0 0.5rem;
@@ -690,5 +690,17 @@ h2 {
   }
   .navBar .navBarTwo .btnOne, .navBar .navBarTwo .toggleIcon {
     display: none;
+  }
+  .search .sectionContainer .btns {
+    width: 70%;
+    border-radius: 3rem;
+    flex-direction: row;
+  }
+  .search .sectionContainer .searchInputs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .search .sectionContainer .searchInputs .singleInput .texts input {
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */

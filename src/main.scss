@@ -850,7 +850,7 @@ h2{
 
             .menu{
                 flex-direction: row;
-                gap: .5rem;
+                gap: 1rem;
 
                 .listItem{
                     padding: 0 0.5rem;
@@ -868,6 +868,29 @@ h2{
 
             .btnOne,.toggleIcon{
                 display: none;
+            }
+        }
+    }
+
+     // Search section styling =====>
+     .search{
+        .sectionContainer{
+            .btns{
+                width: 70%;
+                border-radius: 3rem;
+                flex-direction: row;
+            }
+            .searchInputs{
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+
+                .singleInput{
+                    .texts{
+                        input{
+                            width: 100%;
+                        }
+                    }
+                }
             }
         }
     }
