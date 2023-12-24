@@ -881,7 +881,6 @@ h2{
                 flex-direction: row;
             }
             .searchInputs{
-                display: grid;
                 grid-template-columns: repeat(4,1fr);
 
                 .singleInput{
@@ -891,6 +890,58 @@ h2{
                         }
                     }
                 }
+            }
+        }
+    }
+
+     // Support section styling =====>
+     .support{
+        .sectionContainer{
+            .infoDiv{
+                grid-template-columns: repeat(2,1fr);
+                gap: 2rem;
+                margin-top: 5rem;
+                .textDiv{
+                    margin-top: 0rem;
+                    grid-template-columns: repeat(1,1fr);
+                }
+            }
+        }
+    }
+
+     // Info section styling =====>
+    .info{
+        .infoContainer{
+            padding: 0 6rem;
+            .titleDiv{
+                width: 90%;
+                margin: auto;
+                align-items: center;
+            }
+            .cardDiv{
+               grid-template-columns: repeat(3,1fr);
+            }
+        }
+    }
+
+    // Lounge section styling =====>
+    .lounge{
+        .sectionContainer{
+            grid-template-columns: repeat(2,1fr);
+            .textDiv{
+                grid-area: 1;
+                .grids{
+                    grid-template-columns: repeat(2,1fr);
+                }
+            }
+        }
+    }
+
+    // Travelers section styling =====>
+    .travelers{
+        .sectionContainer{
+            .travelersContainer{
+                grid-template-columns: repeat(3,1fr);
             }
         }
     }

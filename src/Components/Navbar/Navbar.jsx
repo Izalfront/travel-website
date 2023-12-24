@@ -78,7 +78,7 @@ const Navbar = () => {
             Contact
           </button>
         </div>
-        {/* <button className="btn flex btnTwo">Contact</button> */}
+        <button className="btn flex btnTwo">Contact</button>
         <div onClick={showNavBar} className="toggleIcon">
           <CgMenuGridO className="icon" />
         </div>
