@@ -725,7 +725,7 @@ h2{
         }
     }
      // Search section styling =====>
-     .search{
+    .search{
         .sectionContainer{
             .btns{
                 border-radius: 3rem;
@@ -819,7 +819,7 @@ h2{
 
 @media screen and (min-width: 768px){
      // NAVBAR section styling =====>
-     .navBar{
+    .navBar{
         align-items: center;
         .navBarOne{
             .none{
@@ -873,7 +873,7 @@ h2{
     }
 
      // Search section styling =====>
-     .search{
+    .search{
         .sectionContainer{
             .btns{
                 width: 70%;
@@ -895,7 +895,7 @@ h2{
     }
 
      // Support section styling =====>
-     .support{
+    .support{
         .sectionContainer{
             .infoDiv{
                 grid-template-columns: repeat(2,1fr);
@@ -944,5 +944,97 @@ h2{
                 grid-template-columns: repeat(3,1fr);
             }
         }
+    }
+}
+
+@media screen and (min-width: 960px){
+    // Home section styling =====>
+    .home{
+        padding-top: 13rem;
+        .mainText{
+            width: 70%;
+            padding-bottom: 1.5rem;
+            font-size: 22px;
+            line-height: 4rem;
+        }
+    }
+
+     // Search section styling =====>
+    .search{
+        .sectionContainer{
+            .searchInputs{
+                grid-template-columns: repeat(5,1fr);
+            }
+        }
+    }
+
+    // Travelers section styling =====>
+    .travelers{
+        .sectionContainer{
+            .travelersContainer{
+                grid-template-columns: repeat(4,1fr);
+                margin: 3rem 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    // Default Styling ====>
+    p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    h4{
+        font-size: 20px;
+    }
+    
+    h2{
+        font-size: 27px;  
+    }
+
+    .section{
+        padding: 6rem 0 4rem;
+    }
+    
+    .container{
+        width: 75%;
+        margin: auto;
+    }
+
+    // NAVBAR section styling =====>
+    .navBar{
+        .navBarOne, .navBarTwo{
+            padding: 1.5rem 5rem;
+        }
+
+        .navbar_With_Bg{
+            padding: 0 5rem;
+            padding-top: 1.5rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+     // Home section styling =====>
+    .home{
+        .mainText{
+            width: 60%;
+            font-size: 25px;
+            line-height: 4rem;
+        }
+    }
+
+    // Search section styling =====>
+    .search{
+        .sectionContainer{
+            .btns{
+                width: 60%;
+            }
+            .btnBlock{
+                justify-content: center;
+            }
+        }
+        
     }
 }
