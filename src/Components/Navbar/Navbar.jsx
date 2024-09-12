@@ -1,15 +1,16 @@
-/* eslint-disable no-unused-vars */
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import { SiConsul } from 'react-icons/si';
 import { BsPhoneVibrate } from 'react-icons/bs';
 import { AiOutlineGlobal } from 'react-icons/ai';
 import { CgMenuGridO } from 'react-icons/cg';
 
-//import asset
+// import asset
 import logo from '../../assets/logo.png';
 
 const Navbar = () => {
   const [active, setActive] = useState('navBarMenu');
+
   const showNavBar = () => {
     setActive('navBarMenu showNavBar');
   };
@@ -18,17 +19,6 @@ const Navbar = () => {
     setActive('navBarMenu');
   };
 
-  // let us add a bg color to the second navbar ===>
-  const [noBg, addBg] = useState('navBarMenu');
-
-  const addBgColor = () => {
-    if (window.scrollY >= 10) {
-      addBg('navBarTwo navbar_With_Bg');
-    } else {
-      addBg('navBarTwo');
-    }
-  };
-  window.addEventListener('scroll', addBgColor);
   return (
     <div className="navBar flex">
       <div className="navBarOne flex">
@@ -51,7 +41,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className={noBg}>
+      <div className="navBarTwo">
         <div className="logoDiv">
           <img src={logo} className="Logo" alt="" />
         </div>

@@ -1,0 +1,60 @@
+.navBar {
+  display: flex;
+  flex-direction: column;
+}
+
+.navBarOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--PrimaryColor);
+}
+
+.navBarMenu {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease;
+}
+
+.navBarMenu.showNavBar {
+  opacity: 1;
+  visibility: visible;
+}
+
+.navBarTwo {
+  transition: background-color 0.3s ease;
+}
+
+.navbar_With_Bg {
+  background-color: var(--SecondaryColor);
+}
+
+.logoDiv {
+  margin: 1rem;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  cursor: pointer;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--ButtonColor);
+  color: var(--ButtonTextColor);
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--ButtonHoverColor);
+}
